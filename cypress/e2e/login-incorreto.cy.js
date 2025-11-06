@@ -6,7 +6,7 @@ describe('Página de login', () => {
  
     })
         it('Deve preencher os campos do login incorretamente e exibir mensagens de erro ao usuário na página', () => {
-          cy.get('[data-test="input-loginEmail"]').type('marjorie3');
+          cy.get('[data-test="input-loginEmail"]').type('teste');
           cy.get('[data-test="input-loginPassword"]').type('123');
           cy.get('[data-test="submit-button"]').click();
           cy.contains('Por favor, verifique o email digitado').should('be.visible')
