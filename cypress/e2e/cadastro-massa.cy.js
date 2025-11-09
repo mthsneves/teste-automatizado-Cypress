@@ -1,6 +1,6 @@
 import { usuarios } from '../fixtures/usuarios.json'
 
-describe('P´´agina de cadastro',()=>{
+describe('Página de cadastro',()=>{
     beforeEach(()=> {
         cy.visit('https://adopet-frontend-cypress.vercel.app');
         cy.get('[data-test="register-button"]').click();
