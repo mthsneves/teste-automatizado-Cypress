@@ -11,3 +11,6 @@ coverage/
 
 # logs
 *.log
+
+
+cypress.env.json
